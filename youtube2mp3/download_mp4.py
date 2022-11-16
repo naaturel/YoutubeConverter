@@ -6,15 +6,15 @@ run = True
 
 while run:
 
-    lien = input("Entrez le lien youtube de la vidéo : ")
+    lien = input("Enter a youtube video url: ")
 
     video = ytdl.extract_info(lien, download=True)
 
-    nav = input("Ouvrir le navigateur ('enter' : non / n'importe quelle touche : oui) ?")
+    nav = input("Open brower ? ('enter' : no / any key : yes)")
     if nav != "" :
         webbrowser.open(video['url'])
 
-    end = input("Télécharger une autre vidéo ('enter' : non / n'importe quelle touche : oui) ?")
+    end = input("Download again ? ('enter' : no / any key : oui) ?")
 
     if end != "":
         run = False
