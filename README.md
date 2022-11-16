@@ -15,15 +15,14 @@ Requirements :
 Guide :
 -------
 
-Run the youtube2mp4.py script and follow the instructions.
-The scipt will start the dowload. Don't interrupt it.
-Once the dowload is completed, you can either keep it as mp4 file or convert it into mp3 file. For this purpose, follow the 'Guide (2)' section below.
+1. Run the youtube2mp4.py script and follow the instructions.
+2. The scipt will start the dowload. Don't interrupt it.
+3. Once the dowload is completed, you can either keep it as mp4 file or convert it into mp3 file. For this purpose, follow the 'Guide (2)' section below.
 
 Guide (2) :
 -----------
-To convert mp4 files into mp3 files, simply run the convertMp3.py script.
-PLEASE NOTE THAT RUNNING THIS SCRIPT WILLE CONVERT ALL THE MP4 FILES IN THE CURRENT DIRECTORY. 
-IF YOU DON'T WANT SOME MP4 FILES TO BE CONVERTED MOVE THEMM OUTSIDE THE DIRECTORY
+1. To convert mp4 files into mp3 files, simply run the convertMp3.py script.
+2. PLEASE NOTE THAT RUNNING THIS SCRIPT WILLE CONVERT ALL THE MP4 FILES IN THE CURRENT DIRECTORY. IF YOU DON'T WANT SOME MP4 FILES TO BE CONVERTED MOVE THEMM OUTSIDE THE DIRECTORY
 
 Finally :
 ---------
