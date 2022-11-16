@@ -10,7 +10,7 @@ Requirements :
 
 1) To make it works, you should have Python language installed on your computer.
 2) Once that is done, run the setup.py script to install required packages and libraires with pip.
-3) If the programm doesn't work despite of the two previous step, you might need to setup ffmpeg on your computer. 
+3) If the programm doesn't work despite of the two previous steps, you might need to setup ffmpeg on your computer. 
 
 Guide :
 -------
