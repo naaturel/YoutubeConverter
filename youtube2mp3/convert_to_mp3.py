@@ -6,8 +6,7 @@ lst = []
 path = os.getcwd()
 print(path)
 for element in directory:
-    if element[-5:] == ".webm" or element[-4:] == ".mkv":
-        lst.append(element)
+    lst.append(element)
 
 for element in lst:
 
@@ -20,5 +19,4 @@ for element in lst:
     videoClip.close()
 
 for element in directory:
-    if element[-5:] == ".webm" or element[-4:] == ".mkv":
-        os.remove(f"{path}/{element}")
+    os.remove(f"{path}/{element}")
