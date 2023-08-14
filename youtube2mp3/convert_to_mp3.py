@@ -6,7 +6,8 @@ lst = []
 path = os.getcwd()
 print(path)
 for element in directory:
-    lst.append(element)
+    if element[-4:] == ".mp4":
+        lst.append(element)
 
 for element in lst:
 
@@ -19,4 +20,5 @@ for element in lst:
     videoClip.close()
 
 for element in directory:
-    os.remove(f"{path}/{element}")
+    if element[-4:] == ".mp4":
+        os.remove(f"{path}/{element}")
